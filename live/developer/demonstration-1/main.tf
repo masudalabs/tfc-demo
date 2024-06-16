@@ -15,7 +15,7 @@ module "main_resource_group" {
 
 module "app1" {
   source              = "../../../module/app-service"
-  app_service_name    = "app-1"
+  app_service_name    = "masudalabs-app1-test"
   docker_image_name   = "nginx"
   docker_image_tag    = "1.27"
   resource_group_name = module.main_resource_group.name
