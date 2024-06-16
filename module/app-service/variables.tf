@@ -1,24 +1,24 @@
 variable "app_settings" {
-    type = map(string)
-    default = {}
+  type    = map(string)
+  default = {}
 }
 
 variable "location" {
-    type = string
+  type = string
 }
 
 variable "resource_group_name" {
-    type = string
+  type = string
 }
 
 variable "docker_image_name" {
-    type = string
+  type = string
 }
 
 variable "docker_image_tag" {
-    type = string
+  type = string
 }
 
 variable "app_service_name" {
-    type = string
+  type = string
 }
